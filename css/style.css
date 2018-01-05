@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+@import 'stylesheet';
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'miso-regular';*/
+/*font-family: 'miso-bold';*/
+
+
+
+body{
+ background-color: #fdde7e;
+}
+
+h2 {
+	font-family: 'Indie Flower', cursive;
+	/*font-family: "miso-bold";*/
+	font-size: 70px;
+	letter-spacing: .025em;
+	font-weight: bold;
+	margin: 0;
+	color: #02995b;
+	padding-top: 10px;
+
+}
+
+p {
+	margin: 0;
+}
+
+.ba-middle--dol {
+	
+}
+
+
+
+.ba-plans {
+	max-width: 1140px;
+	height: 600px;
+	margin: 0 auto;
+	display: flex;
+	/*justify-content: flex-end;*/
+	align-items: center;
+
+
+
+
+}
+
+.ba-item {
+	flex-basis: 360px;
+	background-color: #fff;
+	/*height: 440px;*/
+	margin-left: 30px;
+	border-radius: 5px;
+	padding-left: 90px;
+	padding-right: 90px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    /*padding: 10px;*/
+    flex-grow: 1;
+
+
+}
+
+.ba-item--huge {
+	padding-left: 90px;
+	padding-right: 90px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.ba-item--huge img {
+	margin-top: 20px;
+}
+
+.ba-item__color {
+	font-size: 56px;
+	font-family: Lato;
+	margin-bottom: 20px;
+}
+
+.ba-item__text {
+	font-size: 20px;
+	letter-spacing: .025em;
+	line-height: 26px;
+	font-family: "Lato";
+}
+
+.ba-img1 {
+	margin-bottom: 25px;
+}
+
+
+
+
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
